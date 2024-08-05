@@ -1,0 +1,222 @@
+@media only screen and (min-width: 0px) and (max-width: 575px){
+    .right ul{
+        flex-direction: column;
+        display: flex;
+        background-color: #070d1b;
+        position: absolute;
+        top: -400px;
+        right: 0px;
+        width: 50%;
+        text-align: center;
+        height: 400px;
+        transition: 0.5s;
+        
+
+    }
+    .bar:hover + .right ul{
+      top: 50px;
+      right: 0px;
+
+    }
+    .num{
+      display: none;
+    }
+    nav{
+      align-items: center;
+    }
+    nav .left{
+        flex-basis: 100%;
+        align-items: center;
+    }
+    .left img{
+        width: 35%;
+        
+    }
+    .bar{
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        color: #f6c451;
+    }
+    .banner .contant{
+        width: 399px;
+        margin: auto;
+    }
+    .banner .contant h1{
+        font-size: 40px;
+        color: #FDFEFF;
+    }
+    .banner .contant p{
+        color: #FDFEFF;
+        letter-spacing: 0px;
+        margin-top: 30px;
+        color: #A9ADB8;
+    }
+    .banner .contant i{
+        font-size: 15px;
+        padding: 1.5% ;
+        border: 1px solid #A9ADB8;
+        border-radius: 50%;
+        margin-top: 30px;
+       margin-left: 15PX;
+    }
+    .aboutinner{
+        flex-direction: column;
+    }
+    .aboutinner {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      background: #070d1b;
+     
+    }
+    .infobox{
+        width: 100%;
+        margin: auto;
+    }
+    .ser2{
+        width: 90%;
+        margin: auto;
+    }
+    .ser1 img{
+        width: 80%;
+        margin: 35px;
+    }
+    .servicebox{
+        padding-bottom: 30%;
+        background-color: #070d1b;
+    }
+    .serviceinner{
+        max-width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1%;
+        background-color: #070d1b;
+       
+    }
+
+    .skillboxinner{
+        width: 90%;
+        margin: auto;
+    }
+    .skillboxinner{
+        flex-direction: column;
+    }
+    .skills{
+        width: 90%;
+        max-width: 400px;
+        padding: 10px 0px;
+       
+      }
+      .skillname{
+        font-size: 16px;
+        font-weight: 700;
+        color: #fdfeff;
+        text-transform: uppercase;
+        margin: 10px 0px;
+        
+      }
+      .skill1 h2{
+        font-size: 25px;
+      }
+      .skill1 p{
+        color: #a9adb8;
+        line-height: 22px;
+        font-size: 15px;
+      }
+      .headerinfo3{
+        text-align: center;
+        color: #fbba24;
+        padding: 20px 0px
+      }
+      .resumeinner{
+        flex-direction: column;
+      }
+      .resumeinner{
+        width: 90%;
+        margin: auto;
+      }
+      .res{
+        margin: 30px 0px;
+      }
+      .res img{
+        display: none;
+      
+      }
+      .res1 p{
+        color: rgb(169, 173, 184);
+        line-height: 18px;
+       
+      }
+      .portfolioinner{
+        width: 90%;
+        margin: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5%;
+        margin-top: 10%;
+      }
+      .reviewinner{
+        max-width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 5%;
+        margin-top: 5%;
+      }
+      .bloginner{
+        max-width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 15%;
+       
+      }
+      .blogimg{
+       padding-bottom: 10%;
+      
+      }
+      .blogbox h2{
+        color: #fbba24;
+        text-align: center;
+        padding-top: 30%;
+        font-weight: normal;  
+       
+      }
+      .blogimg h3{
+        color: #fdfeff;
+        font-weight: normal;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      .contactinner{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+      }
+      .con input{
+        display: block;
+        width: 98%;
+        height: 50px;
+        border-radius: 9px;
+        border: 1px solid #232935;
+        background-color: rgba(16, 22, 36, 1);
+        margin: 20px 0px;
+        transition: 0.5s;
+        outline: #f6c451;
+      }
+      .con{
+        flex-basis: 48%;
+        margin-bottom: 30px;
+        
+      }
+      
+
+      
+
+} 
