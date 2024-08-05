@@ -622,7 +622,7 @@ span .bordd{
 }
 .con input{
   display: block;
-  width: 98%;
+  width: 96%;
   height: 50px;
   border-radius: 9px;
   border: 1px solid #232935;
@@ -631,6 +631,7 @@ span .bordd{
   transition: 0.5s;
   outline: #f6c451;
   color: #fdfeff;
+  padding-left: 20px;
 }
 .con input:hover{
   border: 1px solid #fbba24;
@@ -643,13 +644,16 @@ span .bordd{
 }
 .con textarea{
   background-color: rgba(16, 22, 36, 1);
-  width: 98%;
+  width: 96%;
   border-radius: 9px;
   height: 28%;
   color: #46464e;
   border: 1px solid#232935;
   outline: #f6c451;
   transition: 0.5s;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #fdfeff;
   
 }
 .con textarea::placeholder{
